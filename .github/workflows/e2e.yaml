@@ -2,8 +2,8 @@ name: E2E tests
 permissions: {}
 
 on:
-  push:
-    branches: [main, e2e_tests]
+  # push:
+  #   branches: [main, e2e_tests]
   workflow_dispatch:
 
 jobs:
