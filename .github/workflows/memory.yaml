@@ -2,8 +2,8 @@ name: Memory tests
 permissions: {}
 
 on:
-  push:
-    branches: [main, memory_tests]
+  # push:
+  #   branches: [main, memory_tests]
   workflow_dispatch:
 
 jobs:
