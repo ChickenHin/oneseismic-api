@@ -6,10 +6,10 @@ permissions: {}
 # found and the errors are reported in a human-readable format. This is done to
 # avoid cluttering the security panel on GitHub.
 on:
-  pull_request:
-    branches: [main]
-  push:
-    branches: [main, radix]
+  # pull_request:
+  #   branches: [main]
+  # push:
+  #   branches: [main, radix]
   workflow_dispatch:
 
 env:
